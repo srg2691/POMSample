@@ -74,7 +74,7 @@ public class DriverFactory {
 		
 		else 
 		{
-			System.out.println("please pass right browser...."+browserName);
+			System.out.println("please pass right browser......"+browserName);
 		}
 		
 		getDriver().manage().deleteAllCookies();
