@@ -46,7 +46,7 @@ public class DriverFactory {
 		
 		
 		
-		System.out.println("browser name is   "+browserName);
+		System.out.println("browser name is:  "+browserName);
 		
 		if(browserName.equalsIgnoreCase("chrome"))
 		{
@@ -74,7 +74,7 @@ public class DriverFactory {
 		
 		else 
 		{
-			System.out.println(" please pass right browser.."+browserName);
+			System.out.println("please pass right browser...."+browserName);
 		}
 		
 		getDriver().manage().deleteAllCookies();
