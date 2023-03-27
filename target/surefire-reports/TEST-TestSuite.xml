@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="127.892" tests="45" errors="0" skipped="12" failures="10">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\sanand\eclipse-workspace\FrameworkPracticePOM"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="env" value="qa"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\sanand\eclipse-workspace\FrameworkPracticePOM"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\sanand\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\apache-maven-3.6.3\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Users\sanand\scoop\shims;C:\Users\sanand\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="maven.conf" value="C:\apache-maven-3.6.3\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\sanand"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="sanand"/>
+    <property name="java.class.path" value="C:\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -Denv=qa"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="loginPageTitleTest" classname="com.qa.opencart.test.LoginPageTest" time="0.085"/>
+  <testcase name="loginPageURLTest" classname="com.qa.opencart.test.LoginPageTest" time="0.017"/>
+  <testcase name="forgotPwdLinkExistTest" classname="com.qa.opencart.test.LoginPageTest" time="0.155"/>
+  <testcase name="loginTest" classname="com.qa.opencart.test.LoginPageTest" time="0.433"/>
+  <testcase name="accPageHeadersCountTest" classname="com.qa.opencart.test.AccountsPageTest" time="0.09"/>
+  <testcase name="accPageHeadersValueTest" classname="com.qa.opencart.test.AccountsPageTest" time="0.057"/>
+  <testcase name="accPageTitleTest" classname="com.qa.opencart.test.AccountsPageTest" time="0.012"/>
+  <testcase name="accPageURLTest" classname="com.qa.opencart.test.AccountsPageTest" time="0.006"/>
+  <testcase name="isLogoutLinkExistTest" classname="com.qa.opencart.test.AccountsPageTest" time="0.094"/>
+  <testcase name="searchProductCountTest" classname="com.qa.opencart.test.AccountsPageTest" time="3.153"/>
+  <testcase name="searchProductCountTest" classname="com.qa.opencart.test.AccountsPageTest" time="0.212"/>
+  <testcase name="searchProductCountTest" classname="com.qa.opencart.test.AccountsPageTest" time="0.445"/>
+  <testcase name="searchProductCountTest" classname="com.qa.opencart.test.AccountsPageTest" time="3.143"/>
+  <testcase name="searchProductCountTest" classname="com.qa.opencart.test.AccountsPageTest" time="0">
+    <skipped message="Expected condition failed: waiting for visibility of all elements located by By.cssSelector: div#content div.product-layout (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:24326, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15288, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:24326/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: accc375f-e270-4278-9a2e-4a9f11cd469d"/>
+    <system-out><![CDATA[I am in onTestSkipped method addtToCartTest skipped
+addtToCartTest started!
+I am in onTestStart method addtToCartTest start
+searchProductCountTest skipped!
+]]></system-out>
+  </testcase>
+  <testcase name="searchProductCountTest" classname="com.qa.opencart.test.AccountsPageTest" time="0">
+    <skipped message="Expected condition failed: waiting for visibility of all elements located by By.cssSelector: div#content div.product-layout (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:24326, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15288, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:24326/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: accc375f-e270-4278-9a2e-4a9f11cd469d"/>
+    <system-out><![CDATA[I am in onTestFailure method userRegTest failed
+Screenshot captured for test case:userRegTest
+userRegTest started!
+I am in onTestStart method userRegTest start
+Product Quantity: 2
+searchProductCountTest skipped!
+]]></system-out>
+  </testcase>
+  <testcase name="searchProductCountTest" classname="com.qa.opencart.test.AccountsPageTest" time="0">
+    <skipped message="Expected condition failed: waiting for visibility of all elements located by By.cssSelector: div#content div.product-layout (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:24326, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15288, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:24326/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: accc375f-e270-4278-9a2e-4a9f11cd469d"/>
+    <system-out><![CDATA[I am in onTestFailure method addtToCartTest failed
+Screenshot captured for test case:addtToCartTest
+productImagesCountTest started!
+I am in onTestStart method productImagesCountTest start
+searchProductCountTest skipped!
+]]></system-out>
+  </testcase>
+  <testcase name="searchProductCountTest" classname="com.qa.opencart.test.AccountsPageTest" time="1.122">
+    <failure message="Expected condition failed: waiting for visibility of all elements located by By.cssSelector: div#content div.product-layout (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:24326, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15288, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:24326/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: accc375f-e270-4278-9a2e-4a9f11cd469d" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of all elements located by By.cssSelector: div#content div.product-layout (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:24326, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15288, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:24326/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: accc375f-e270-4278-9a2e-4a9f11cd469d
+	at com.qa.opencart.test.AccountsPageTest.searchProductCountTest(AccountsPageTest.java:67)
+</failure>
+    <system-out><![CDATA[I am in onTestFailure method userRegTest failed
+Screenshot captured for test case:userRegTest
+reading data from  register
+userRegTest started!
+I am in onTestStart method userRegTest start
+searchProductCountTest failed!
+]]></system-out>
+  </testcase>
+  <testcase name="addtToCartTest" classname="com.qa.opencart.test.ProductPageInfoTest" time="0">
+    <skipped message="The following asserts failed:&#10;	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],&#10;	expected [true] but found [false]"/>
+    <system-out><![CDATA[I am in onTestSuccess method searchProductCountTest succeed
+searchProductCountTest started!
+I am in onTestStart method searchProductCountTest start
+Cart Success Mesg: Success: You have added MacBook Pro to your shopping cart!
+[MacBook Pro, iMac]
+addtToCartTest skipped!
+]]></system-out>
+  </testcase>
+  <testcase name="addtToCartTest" classname="com.qa.opencart.test.ProductPageInfoTest" time="0">
+    <skipped message="The following asserts failed:&#10;	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],&#10;	expected [true] but found [false],&#10;	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],&#10;	expected [true] but found [false]"/>
+    <system-out><![CDATA[I am in onTestSuccess method searchProductCountTest succeed
+searchProductCountTest started!
+I am in onTestStart method searchProductCountTest start
+Cart Success Mesg: Success: You have added MacBook Pro to your shopping cart!
+[MacBook Pro, iMac]
+addtToCartTest skipped!
+]]></system-out>
+  </testcase>
+  <testcase name="addtToCartTest" classname="com.qa.opencart.test.ProductPageInfoTest" time="0">
+    <skipped message="The following asserts failed:&#10;	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],&#10;	expected [true] but found [false],&#10;	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],&#10;	expected [true] but found [false],&#10;	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],&#10;	expected [true] but found [false]"/>
+    <system-out><![CDATA[I am in onTestSkipped method userRegTest skipped
+reading data from  register
+userRegTest started!
+I am in onTestStart method userRegTest start
+Product Quantity: 1
+Cart Success Mesg: Success: You have added MacBook Pro to your shopping cart!
+[MacBook Pro, iMac]
+addtToCartTest skipped!
+]]></system-out>
+  </testcase>
+  <testcase name="addtToCartTest" classname="com.qa.opencart.test.ProductPageInfoTest" time="5.66">
+    <failure message="The following asserts failed:&#10;	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],&#10;	expected [true] but found [false],&#10;	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],&#10;	expected [true] but found [false],&#10;	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],&#10;	expected [true] but found [false],&#10;	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],&#10;	expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+The following asserts failed:
+	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
+	expected [true] but found [false],
+	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
+	expected [true] but found [false],
+	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
+	expected [true] but found [false],
+	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
+	expected [true] but found [false]
+	at com.qa.opencart.test.ProductPageInfoTest.addtToCartTest(ProductPageInfoTest.java:102)
+</failure>
+    <system-out><![CDATA[I am in onTestSkipped method userRegTest skipped
+reading data from  register
+userRegTest started!
+I am in onTestStart method userRegTest start
+Product Quantity: 1
+Cart Success Mesg: Success: You have added MacBook Pro to your shopping cart!
+[MacBook Pro, iMac]
+addtToCartTest failed!
+]]></system-out>
+  </testcase>
+  <testcase name="addtToCartTest" classname="com.qa.opencart.test.ProductPageInfoTest" time="3.033">
+    <failure message="The following asserts failed:&#10;	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],&#10;	expected [true] but found [false],&#10;	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],&#10;	expected [true] but found [false],&#10;	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],&#10;	expected [true] but found [false],&#10;	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],&#10;	expected [true] but found [false],&#10;	expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],&#10;	expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+The following asserts failed:
+	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
+	expected [true] but found [false],
+	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
+	expected [true] but found [false],
+	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
+	expected [true] but found [false],
+	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
+	expected [true] but found [false],
+	expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],
+	expected [true] but found [false]
+	at com.qa.opencart.test.ProductPageInfoTest.addtToCartTest(ProductPageInfoTest.java:102)
+</failure>
+    <system-out><![CDATA[I am in onTestSkipped method searchProductCountTest skipped
+searchProductCountTest started!
+I am in onTestStart method searchProductCountTest start
+Cart Success Mesg: Success: You have added iMac to your shopping cart!
+[MacBook Pro, iMac]
+addtToCartTest failed!
+]]></system-out>
+  </testcase>
+  <testcase name="addtToCartTest" classname="com.qa.opencart.test.ProductPageInfoTest" time="4.934">
+    <failure message="The following asserts failed:&#10;	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],&#10;	expected [true] but found [false],&#10;	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],&#10;	expected [true] but found [false],&#10;	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],&#10;	expected [true] but found [false],&#10;	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],&#10;	expected [true] but found [false],&#10;	expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],&#10;	expected [true] but found [false],&#10;	expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],&#10;	expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+The following asserts failed:
+	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
+	expected [true] but found [false],
+	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
+	expected [true] but found [false],
+	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
+	expected [true] but found [false],
+	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
+	expected [true] but found [false],
+	expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],
+	expected [true] but found [false],
+	expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],
+	expected [true] but found [false]
+	at com.qa.opencart.test.ProductPageInfoTest.addtToCartTest(ProductPageInfoTest.java:102)
+</failure>
+    <system-out><![CDATA[I am in onTestFailure method userRegTest failed
+Screenshot captured for test case:userRegTest
+reading data from  register
+userRegTest started!
+I am in onTestStart method userRegTest start
+Product Quantity: 2
+Cart Success Mesg: Success: You have added iMac to your shopping cart!
+[MacBook Pro, iMac]
+addtToCartTest failed!
+]]></system-out>
+  </testcase>
+  <testcase name="userRegTest" classname="com.qa.opencart.test.RegistrationPageTest" time="0">
+    <skipped message="(855, 661) is out of bounds of viewport width (1360) and height (643)&#10;Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [3d55d3f7-5538-4a8a-aaf5-73625c5ea08e, actions {actions=[org.openqa.selenium.interactions.Sequence@6a45d9f3]}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:26427, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10500, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:26427/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 3d55d3f7-5538-4a8a-aaf5-73625c5ea08e"/>
+    <system-out><![CDATA[I am in onTestSuccess method searchProductCountTest succeed
+searchProductCountTest started!
+I am in onTestStart method searchProductCountTest start
+userRegTest skipped!
+]]></system-out>
+  </testcase>
+  <testcase name="userRegTest" classname="com.qa.opencart.test.RegistrationPageTest" time="0">
+    <skipped message="(855, 661) is out of bounds of viewport width (1360) and height (643)&#10;Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [3d55d3f7-5538-4a8a-aaf5-73625c5ea08e, actions {actions=[org.openqa.selenium.interactions.Sequence@6083e26b]}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:26427, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10500, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:26427/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 3d55d3f7-5538-4a8a-aaf5-73625c5ea08e"/>
+    <system-out><![CDATA[I am in onTestSkipped method addtToCartTest skipped
+addtToCartTest started!
+I am in onTestStart method addtToCartTest start
+userRegTest skipped!
+]]></system-out>
+  </testcase>
+  <testcase name="userRegTest" classname="com.qa.opencart.test.RegistrationPageTest" time="0">
+    <skipped message="(855, 661) is out of bounds of viewport width (1360) and height (643)&#10;Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [3d55d3f7-5538-4a8a-aaf5-73625c5ea08e, actions {actions=[org.openqa.selenium.interactions.Sequence@258c60ac]}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:26427, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10500, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:26427/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 3d55d3f7-5538-4a8a-aaf5-73625c5ea08e"/>
+    <system-out><![CDATA[I am in onTestSkipped method searchProductCountTest skipped
+searchProductCountTest started!
+I am in onTestStart method searchProductCountTest start
+userRegTest skipped!
+]]></system-out>
+  </testcase>
+  <testcase name="userRegTest" classname="com.qa.opencart.test.RegistrationPageTest" time="3.495">
+    <failure message="(855, 661) is out of bounds of viewport width (1360) and height (643)&#10;Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [3d55d3f7-5538-4a8a-aaf5-73625c5ea08e, actions {actions=[org.openqa.selenium.interactions.Sequence@500d1a30]}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:26427, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10500, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:26427/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 3d55d3f7-5538-4a8a-aaf5-73625c5ea08e" type="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: 
+(855, 661) is out of bounds of viewport width (1360) and height (643)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3d55d3f7-5538-4a8a-aaf5-73625c5ea08e, actions {actions=[org.openqa.selenium.interactions.Sequence@500d1a30]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:26427, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10500, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:26427/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3d55d3f7-5538-4a8a-aaf5-73625c5ea08e
+	at com.qa.opencart.test.RegistrationPageTest.userRegTest(RegistrationPageTest.java:43)
+</failure>
+    <system-out><![CDATA[I am in onTestFailure method addtToCartTest failed
+Screenshot captured for test case:addtToCartTest
+addtToCartTest started!
+I am in onTestStart method addtToCartTest start
+userRegTest failed!
+]]></system-out>
+  </testcase>
+  <testcase name="userRegTest" classname="com.qa.opencart.test.RegistrationPageTest" time="3.765">
+    <failure message="(855, 661) is out of bounds of viewport width (1360) and height (643)&#10;Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [3d55d3f7-5538-4a8a-aaf5-73625c5ea08e, actions {actions=[org.openqa.selenium.interactions.Sequence@5465798d]}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:26427, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10500, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:26427/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 3d55d3f7-5538-4a8a-aaf5-73625c5ea08e" type="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: 
+(855, 661) is out of bounds of viewport width (1360) and height (643)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3d55d3f7-5538-4a8a-aaf5-73625c5ea08e, actions {actions=[org.openqa.selenium.interactions.Sequence@5465798d]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:26427, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10500, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:26427/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3d55d3f7-5538-4a8a-aaf5-73625c5ea08e
+	at com.qa.opencart.test.RegistrationPageTest.userRegTest(RegistrationPageTest.java:43)
+</failure>
+    <system-out><![CDATA[I am in onTestFailure method addtToCartTest failed
+Screenshot captured for test case:addtToCartTest
+addtToCartTest started!
+I am in onTestStart method addtToCartTest start
+userRegTest failed!
+]]></system-out>
+  </testcase>
+  <testcase name="userRegTest" classname="com.qa.opencart.test.RegistrationPageTest" time="2.827">
+    <failure message="(855, 661) is out of bounds of viewport width (1360) and height (643)&#10;Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [3d55d3f7-5538-4a8a-aaf5-73625c5ea08e, actions {actions=[org.openqa.selenium.interactions.Sequence@2c8682e4]}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:26427, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10500, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:26427/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 3d55d3f7-5538-4a8a-aaf5-73625c5ea08e" type="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: 
+(855, 661) is out of bounds of viewport width (1360) and height (643)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3d55d3f7-5538-4a8a-aaf5-73625c5ea08e, actions {actions=[org.openqa.selenium.interactions.Sequence@2c8682e4]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:26427, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10500, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:26427/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3d55d3f7-5538-4a8a-aaf5-73625c5ea08e
+	at com.qa.opencart.test.RegistrationPageTest.userRegTest(RegistrationPageTest.java:43)
+</failure>
+    <system-out><![CDATA[I am in onTestSkipped method searchProductCountTest skipped
+searchProductCountTest started!
+I am in onTestStart method searchProductCountTest start
+userRegTest failed!
+]]></system-out>
+  </testcase>
+  <testcase name="userRegTest" classname="com.qa.opencart.test.RegistrationPageTest" time="0.487">
+    <failure message="(855, 661) is out of bounds of viewport width (1360) and height (643)&#10;Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [3d55d3f7-5538-4a8a-aaf5-73625c5ea08e, actions {actions=[org.openqa.selenium.interactions.Sequence@3544ecef]}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:26427, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10500, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:26427/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 3d55d3f7-5538-4a8a-aaf5-73625c5ea08e" type="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: 
+(855, 661) is out of bounds of viewport width (1360) and height (643)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3d55d3f7-5538-4a8a-aaf5-73625c5ea08e, actions {actions=[org.openqa.selenium.interactions.Sequence@3544ecef]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:26427, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10500, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:26427/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3d55d3f7-5538-4a8a-aaf5-73625c5ea08e
+	at com.qa.opencart.test.RegistrationPageTest.userRegTest(RegistrationPageTest.java:43)
+</failure>
+    <system-out><![CDATA[I am in onTestSuccess method productImagesCountTest succeed
+productImagesCountTest started!
+I am in onTestStart method productImagesCountTest start
+userRegTest failed!
+]]></system-out>
+  </testcase>
+  <testcase name="userRegTest" classname="com.qa.opencart.test.RegistrationPageTest" time="5.377">
+    <failure message="(855, 661) is out of bounds of viewport width (1360) and height (643)&#10;Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [3d55d3f7-5538-4a8a-aaf5-73625c5ea08e, actions {actions=[org.openqa.selenium.interactions.Sequence@30b46ae3]}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:26427, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10500, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:26427/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 3d55d3f7-5538-4a8a-aaf5-73625c5ea08e" type="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: 
+(855, 661) is out of bounds of viewport width (1360) and height (643)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3d55d3f7-5538-4a8a-aaf5-73625c5ea08e, actions {actions=[org.openqa.selenium.interactions.Sequence@30b46ae3]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:26427, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10500, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:26427/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3d55d3f7-5538-4a8a-aaf5-73625c5ea08e
+	at com.qa.opencart.test.RegistrationPageTest.userRegTest(RegistrationPageTest.java:43)
+</failure>
+    <system-out><![CDATA[I am in onTestSuccess method productImagesCountTest succeed
+productInfoTest started!
+I am in onTestStart method productInfoTest start
+Product Count:::3
+userRegTest failed!
+product header: MacBook Pro
+]]></system-out>
+  </testcase>
+  <testcase name="productImagesCountTest" classname="com.qa.opencart.test.ProductPageInfoTest" time="0.167"/>
+  <testcase name="productImagesCountTest" classname="com.qa.opencart.test.ProductPageInfoTest" time="4.06"/>
+  <testcase name="productImagesCountTest" classname="com.qa.opencart.test.ProductPageInfoTest" time="4.504"/>
+  <testcase name="productImagesCountTest" classname="com.qa.opencart.test.ProductPageInfoTest" time="2.68"/>
+  <testcase name="productInfoTest" classname="com.qa.opencart.test.ProductPageInfoTest" time="0">
+    <skipped message="The following asserts failed:&#10;	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],&#10;	expected [true] but found [false],&#10;	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],&#10;	expected [true] but found [false],&#10;	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],&#10;	expected [true] but found [false],&#10;	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],&#10;	expected [true] but found [false],&#10;	expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],&#10;	expected [true] but found [false],&#10;	expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],&#10;	expected [true] but found [false]"/>
+    <system-out><![CDATA[I am in onTestFailure method userRegTest failed
+Screenshot captured for test case:userRegTest
+{productname=MacBook Pro, Brand=Apple, Product Code=Product 18, Reward Points=800, Availability=In Stock, productprice=$2,000.00, exTax=$2,000.00}
+productInfoTest skipped!
+]]></system-out>
+    <system-err><![CDATA[1678346012738	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:56732
+1678346012744	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1678346012755	Marionette	INFO	Stopped listening on port 56487
+]]></system-err>
+  </testcase>
+  <testcase name="productInfoTest" classname="com.qa.opencart.test.ProductPageInfoTest" time="0">
+    <skipped message="The following asserts failed:&#10;	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],&#10;	expected [true] but found [false],&#10;	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],&#10;	expected [true] but found [false],&#10;	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],&#10;	expected [true] but found [false],&#10;	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],&#10;	expected [true] but found [false],&#10;	expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],&#10;	expected [true] but found [false],&#10;	expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],&#10;	expected [true] but found [false]"/>
+    <system-out><![CDATA[I am in onTestSuccess method searchProductTest succeed
+searchProductTest started!
+I am in onTestStart method searchProductTest start
+Test Suite is ending!
+I am in onFinish method Register Page Test
+Product Count:::3
+product header: MacBook Pro
+{productname=MacBook Pro, Brand=Apple, Product Code=Product 18, Reward Points=800, Availability=In Stock, productprice=$2,000.00, exTax=$2,000.00}
+productInfoTest skipped!
+]]></system-out>
+  </testcase>
+  <testcase name="productInfoTest" classname="com.qa.opencart.test.ProductPageInfoTest" time="0">
+    <skipped message="The following asserts failed:&#10;	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],&#10;	expected [true] but found [false],&#10;	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],&#10;	expected [true] but found [false],&#10;	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],&#10;	expected [true] but found [false],&#10;	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],&#10;	expected [true] but found [false],&#10;	expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],&#10;	expected [true] but found [false],&#10;	expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],&#10;	expected [true] but found [false]"/>
+    <system-out><![CDATA[I am in onTestSuccess method searchProductTest succeed
+searchProductTest started!
+I am in onTestStart method searchProductTest start
+Product Count:::1
+product header: MacBook Pro
+{productname=MacBook Pro, Brand=Apple, Product Code=Product 18, Reward Points=800, Availability=In Stock, productprice=$2,000.00, exTax=$2,000.00}
+productInfoTest skipped!
+]]></system-out>
+  </testcase>
+  <testcase name="productInfoTest" classname="com.qa.opencart.test.ProductPageInfoTest" time="4.699">
+    <failure message="The following asserts failed:&#10;	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],&#10;	expected [true] but found [false],&#10;	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],&#10;	expected [true] but found [false],&#10;	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],&#10;	expected [true] but found [false],&#10;	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],&#10;	expected [true] but found [false],&#10;	expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],&#10;	expected [true] but found [false],&#10;	expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],&#10;	expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+The following asserts failed:
+	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
+	expected [true] but found [false],
+	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
+	expected [true] but found [false],
+	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
+	expected [true] but found [false],
+	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
+	expected [true] but found [false],
+	expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],
+	expected [true] but found [false],
+	expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],
+	expected [true] but found [false]
+	at com.qa.opencart.test.ProductPageInfoTest.productInfoTest(ProductPageInfoTest.java:60)
+</failure>
+    <system-out><![CDATA[I am in onTestSuccess method searchProductTest succeed
+searchProductTest started!
+I am in onTestStart method searchProductTest start
+Product Count:::1
+product header: MacBook Pro
+{productname=MacBook Pro, Brand=Apple, Product Code=Product 18, Reward Points=800, Availability=In Stock, productprice=$2,000.00, exTax=$2,000.00}
+productInfoTest failed!
+]]></system-out>
+  </testcase>
+  <testcase name="searchProductTest" classname="com.qa.opencart.test.AccountsPageTest" time="0.543"/>
+  <testcase name="searchProductTest" classname="com.qa.opencart.test.AccountsPageTest" time="0.601"/>
+  <testcase name="searchProductTest" classname="com.qa.opencart.test.AccountsPageTest" time="0.614"/>
+  <testcase name="searchProductTest" classname="com.qa.opencart.test.AccountsPageTest" time="5.445"/>
+  <testcase name="searchProductTest" classname="com.qa.opencart.test.AccountsPageTest" time="5.201"/>
+  <testcase name="searchProductTest" classname="com.qa.opencart.test.AccountsPageTest" time="5.272"/>
+</testsuite>

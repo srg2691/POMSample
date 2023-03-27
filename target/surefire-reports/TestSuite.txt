@@ -1,0 +1,131 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 45, Failures: 10, Errors: 0, Skipped: 12, Time elapsed: 127.892 s <<< FAILURE! - in TestSuite
+addtToCartTest(com.qa.opencart.test.ProductPageInfoTest)  Time elapsed: 5.66 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
+	expected [true] but found [false],
+	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
+	expected [true] but found [false],
+	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
+	expected [true] but found [false],
+	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
+	expected [true] but found [false]
+	at com.qa.opencart.test.ProductPageInfoTest.addtToCartTest(ProductPageInfoTest.java:102)
+
+userRegTest(com.qa.opencart.test.RegistrationPageTest)  Time elapsed: 3.495 s  <<< FAILURE!
+org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: 
+(855, 661) is out of bounds of viewport width (1360) and height (643)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3d55d3f7-5538-4a8a-aaf5-73625c5ea08e, actions {actions=[org.openqa.selenium.interactions.Sequence@500d1a30]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:26427, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10500, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:26427/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3d55d3f7-5538-4a8a-aaf5-73625c5ea08e
+	at com.qa.opencart.test.RegistrationPageTest.userRegTest(RegistrationPageTest.java:43)
+
+addtToCartTest(com.qa.opencart.test.ProductPageInfoTest)  Time elapsed: 3.033 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
+	expected [true] but found [false],
+	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
+	expected [true] but found [false],
+	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
+	expected [true] but found [false],
+	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
+	expected [true] but found [false],
+	expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],
+	expected [true] but found [false]
+	at com.qa.opencart.test.ProductPageInfoTest.addtToCartTest(ProductPageInfoTest.java:102)
+
+userRegTest(com.qa.opencart.test.RegistrationPageTest)  Time elapsed: 3.765 s  <<< FAILURE!
+org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: 
+(855, 661) is out of bounds of viewport width (1360) and height (643)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3d55d3f7-5538-4a8a-aaf5-73625c5ea08e, actions {actions=[org.openqa.selenium.interactions.Sequence@5465798d]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:26427, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10500, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:26427/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3d55d3f7-5538-4a8a-aaf5-73625c5ea08e
+	at com.qa.opencart.test.RegistrationPageTest.userRegTest(RegistrationPageTest.java:43)
+
+addtToCartTest(com.qa.opencart.test.ProductPageInfoTest)  Time elapsed: 4.934 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
+	expected [true] but found [false],
+	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
+	expected [true] but found [false],
+	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
+	expected [true] but found [false],
+	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
+	expected [true] but found [false],
+	expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],
+	expected [true] but found [false],
+	expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],
+	expected [true] but found [false]
+	at com.qa.opencart.test.ProductPageInfoTest.addtToCartTest(ProductPageInfoTest.java:102)
+
+userRegTest(com.qa.opencart.test.RegistrationPageTest)  Time elapsed: 2.827 s  <<< FAILURE!
+org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: 
+(855, 661) is out of bounds of viewport width (1360) and height (643)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3d55d3f7-5538-4a8a-aaf5-73625c5ea08e, actions {actions=[org.openqa.selenium.interactions.Sequence@2c8682e4]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:26427, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10500, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:26427/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3d55d3f7-5538-4a8a-aaf5-73625c5ea08e
+	at com.qa.opencart.test.RegistrationPageTest.userRegTest(RegistrationPageTest.java:43)
+
+userRegTest(com.qa.opencart.test.RegistrationPageTest)  Time elapsed: 0.487 s  <<< FAILURE!
+org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: 
+(855, 661) is out of bounds of viewport width (1360) and height (643)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3d55d3f7-5538-4a8a-aaf5-73625c5ea08e, actions {actions=[org.openqa.selenium.interactions.Sequence@3544ecef]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:26427, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10500, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:26427/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3d55d3f7-5538-4a8a-aaf5-73625c5ea08e
+	at com.qa.opencart.test.RegistrationPageTest.userRegTest(RegistrationPageTest.java:43)
+
+searchProductCountTest(com.qa.opencart.test.AccountsPageTest)  Time elapsed: 1.122 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of all elements located by By.cssSelector: div#content div.product-layout (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:24326, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15288, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:24326/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: accc375f-e270-4278-9a2e-4a9f11cd469d
+	at com.qa.opencart.test.AccountsPageTest.searchProductCountTest(AccountsPageTest.java:67)
+
+userRegTest(com.qa.opencart.test.RegistrationPageTest)  Time elapsed: 5.377 s  <<< FAILURE!
+org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: 
+(855, 661) is out of bounds of viewport width (1360) and height (643)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3d55d3f7-5538-4a8a-aaf5-73625c5ea08e, actions {actions=[org.openqa.selenium.interactions.Sequence@30b46ae3]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:26427, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10500, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:26427/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3d55d3f7-5538-4a8a-aaf5-73625c5ea08e
+	at com.qa.opencart.test.RegistrationPageTest.userRegTest(RegistrationPageTest.java:43)
+
+productInfoTest(com.qa.opencart.test.ProductPageInfoTest)  Time elapsed: 4.699 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
+	expected [true] but found [false],
+	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
+	expected [true] but found [false],
+	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
+	expected [true] but found [false],
+	expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
+	expected [true] but found [false],
+	expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],
+	expected [true] but found [false],
+	expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],
+	expected [true] but found [false]
+	at com.qa.opencart.test.ProductPageInfoTest.productInfoTest(ProductPageInfoTest.java:60)
+
