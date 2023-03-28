@@ -6,15 +6,41 @@
     <listener class-name="com.qa.opencart.listeners.TestAllureListener"/>
     <listener class-name="com.qa.opencart.listeners.AnnotationTransformer"/>
   </listeners>
-  <test thread-count="4" parallel="tests" name="Login Page Test(failed)" verbose="4">
+  <test thread-count="4" parallel="tests" name="Register Page Test(failed)" verbose="4">
     <classes>
-      <class name="com.qa.opencart.test.LoginPageTest">
+      <class name="com.qa.opencart.test.RegistrationPageTest">
         <methods>
-          <include name="loginPageTitleTest"/>
+          <include name="setup"/>
+          <include name="regPageSetup"/>
+          <include name="tearDown"/>
+          <include name="userRegTest" invocation-numbers="0 0 0 0 1 1 2 2"/>
+        </methods>
+      </class> <!-- com.qa.opencart.test.RegistrationPageTest -->
+    </classes>
+  </test> <!-- Register Page Test(failed) -->
+  <test thread-count="4" parallel="tests" name="Accounts Page Test(failed)" verbose="4">
+    <classes>
+      <class name="com.qa.opencart.test.AccountsPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="searchProductCountTest" invocation-numbers="4 4 4 4"/>
+          <include name="tearDown"/>
+          <include name="accPageSetup"/>
+        </methods>
+      </class> <!-- com.qa.opencart.test.AccountsPageTest -->
+    </classes>
+  </test> <!-- Accounts Page Test(failed) -->
+  <test thread-count="4" parallel="tests" name="Product Info Page Test(failed)" verbose="4">
+    <classes>
+      <class name="com.qa.opencart.test.ProductPageInfoTest">
+        <methods>
+          <include name="addtToCartTest" invocation-numbers="0 0 0 0 1 1"/>
+          <include name="productInfoPageSetup"/>
+          <include name="productInfoTest"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.qa.opencart.test.LoginPageTest -->
+      </class> <!-- com.qa.opencart.test.ProductPageInfoTest -->
     </classes>
-  </test> <!-- Login Page Test(failed) -->
+  </test> <!-- Product Info Page Test(failed) -->
 </suite> <!-- Failed suite [Opencart App Test Regression Suite] -->
