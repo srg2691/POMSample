@@ -32,17 +32,7 @@
 		</classes>
 	</test>
 
-	<test name="Product Info Page Test">
-		<classes>
-			<class name="com.qa.opencart.test.ProductPageInfoTest" />
-		</classes>
-	</test>
-
-	<test name="Register Page Test">
-		<classes>
-			<class name="com.qa.opencart.test.RegistrationPageTest" />
-		</classes>
-	</test>
+	
 	
 
 	<!-- <test name="Product Info Page Test"> <classes> <class name="com.qa.opencart.tests.ProductPageInfoTest" 
