@@ -1,797 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="45" passed="23" failed="10" skipped="12">
+<testng-results ignored="0" total="23" passed="23" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-28T14:53:22Z" name="Opencart App Test Regression Suite" finished-at="2023-03-28T14:56:59Z" duration-ms="217373">
+  <suite started-at="2023-03-30T19:36:33Z" name="Opencart App Test Regression Suite" finished-at="2023-03-30T19:37:40Z" duration-ms="67074">
     <groups>
     </groups>
-    <test started-at="2023-03-28T14:53:22Z" name="Login Page Test" finished-at="2023-03-28T14:53:46Z" duration-ms="24304">
+    <test started-at="2023-03-30T19:36:33Z" name="Login Page Test_chrome" finished-at="2023-03-30T19:36:48Z" duration-ms="15431">
       <class name="com.qa.opencart.test.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.test.LoginPageTest@3c8a7e38]" started-at="2023-03-28T14:53:22Z" name="setup" finished-at="2023-03-28T14:53:40Z" duration-ms="17557" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@167381c7]" started-at="2023-03-30T19:36:33Z" name="setup" finished-at="2023-03-30T19:36:40Z" duration-ms="7279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginPageTitleTest()[pri:1, instance:com.qa.opencart.test.LoginPageTest@3c8a7e38]" started-at="2023-03-28T14:53:40Z" name="loginPageTitleTest" finished-at="2023-03-28T14:53:40Z" duration-ms="105" status="PASS">
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.qa.opencart.test.LoginPageTest@167381c7]" started-at="2023-03-30T19:36:40Z" name="loginPageTitleTest" finished-at="2023-03-30T19:36:40Z" duration-ms="214" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method signature="loginPageURLTest()[pri:2, instance:com.qa.opencart.test.LoginPageTest@3c8a7e38]" started-at="2023-03-28T14:53:40Z" name="loginPageURLTest" finished-at="2023-03-28T14:53:40Z" duration-ms="21" status="PASS">
+        <test-method signature="loginPageURLTest()[pri:2, instance:com.qa.opencart.test.LoginPageTest@167381c7]" started-at="2023-03-30T19:36:41Z" name="loginPageURLTest" finished-at="2023-03-30T19:36:41Z" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageURLTest -->
-        <test-method signature="forgotPwdLinkExistTest()[pri:3, instance:com.qa.opencart.test.LoginPageTest@3c8a7e38]" started-at="2023-03-28T14:53:40Z" name="forgotPwdLinkExistTest" finished-at="2023-03-28T14:53:40Z" duration-ms="185" status="PASS">
+        <test-method signature="forgotPwdLinkExistTest()[pri:3, instance:com.qa.opencart.test.LoginPageTest@167381c7]" started-at="2023-03-30T19:36:41Z" name="forgotPwdLinkExistTest" finished-at="2023-03-30T19:36:41Z" duration-ms="229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgotPwdLinkExistTest -->
-        <test-method signature="loginTest()[pri:4, instance:com.qa.opencart.test.LoginPageTest@3c8a7e38]" started-at="2023-03-28T14:53:40Z" name="loginTest" finished-at="2023-03-28T14:53:45Z" duration-ms="4867" status="PASS">
+        <test-method signature="loginTest()[pri:4, instance:com.qa.opencart.test.LoginPageTest@167381c7]" started-at="2023-03-30T19:36:41Z" name="loginTest" finished-at="2023-03-30T19:36:47Z" duration-ms="6502" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.test.LoginPageTest@3c8a7e38]" started-at="2023-03-28T14:53:45Z" name="tearDown" finished-at="2023-03-28T14:53:46Z" duration-ms="1379" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.test.LoginPageTest@167381c7]" started-at="2023-03-30T19:36:47Z" name="tearDown" finished-at="2023-03-30T19:36:48Z" duration-ms="925" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.opencart.test.LoginPageTest -->
-    </test> <!-- Login Page Test -->
-    <test started-at="2023-03-28T14:53:22Z" name="Register Page Test" finished-at="2023-03-28T14:55:04Z" duration-ms="101630">
-      <class name="com.qa.opencart.test.RegistrationPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.test.RegistrationPageTest@62d1dc3c]" started-at="2023-03-28T14:53:22Z" name="setup" finished-at="2023-03-28T14:53:44Z" duration-ms="22122" status="PASS">
+    </test> <!-- Login Page Test_chrome -->
+    <test started-at="2023-03-30T19:36:33Z" name="Login Page Test_edge" finished-at="2023-03-30T19:36:50Z" duration-ms="16748">
+      <class name="com.qa.opencart.test.LoginPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@22d9bc14]" started-at="2023-03-30T19:36:33Z" name="setup" finished-at="2023-03-30T19:36:43Z" duration-ms="9684" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="regPageSetup()[pri:0, instance:com.qa.opencart.test.RegistrationPageTest@62d1dc3c]" started-at="2023-03-28T14:53:44Z" name="regPageSetup" finished-at="2023-03-28T14:53:47Z" duration-ms="2958" status="PASS">
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.qa.opencart.test.LoginPageTest@22d9bc14]" started-at="2023-03-30T19:36:43Z" name="loginPageTitleTest" finished-at="2023-03-30T19:36:43Z" duration-ms="488" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- regPageSetup -->
-        <test-method signature="userRegTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.test.RegistrationPageTest@62d1dc3c]" started-at="2023-03-28T14:53:49Z" name="userRegTest" data-provider="getRegTestData" finished-at="2023-03-28T14:53:58Z" duration-ms="9341" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sarang]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[anand]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[2345678986]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Test@123]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[yes]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">
-            <message>
-              <![CDATA[(816, 613) is out of bounds of viewport width (1280) and height (595)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [fb434ab7-f260-4698-b3dc-678d2031a7a6, actions {actions=[org.openqa.selenium.interactions.Sequence@6060aca2]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0, moz:accessibilityChecks: false, moz:buildID: 20230309232128, moz:debuggerAddress: 127.0.0.1:11187, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18520, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:11187/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fb434ab7-f260-4698-b3dc-678d2031a7a6]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (816, 613) is out of bounds of viewport width (1280) and height (595)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [fb434ab7-f260-4698-b3dc-678d2031a7a6, actions {actions=[org.openqa.selenium.interactions.Sequence@6060aca2]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0, moz:accessibilityChecks: false, moz:buildID: 20230309232128, moz:debuggerAddress: 127.0.0.1:11187, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18520, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:11187/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fb434ab7-f260-4698-b3dc-678d2031a7a6
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:603)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:567)
-at com.qa.opencart.utils.ElementUtil.doActionsCick(ElementUtil.java:64)
-at com.qa.opencart.PageLayer.RegistrationPage.registerUser(RegistrationPage.java:60)
-at com.qa.opencart.test.RegistrationPageTest.userRegTest(RegistrationPageTest.java:43)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.interactions.MoveTargetOutOfBoundsException -->
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method signature="loginPageURLTest()[pri:2, instance:com.qa.opencart.test.LoginPageTest@22d9bc14]" started-at="2023-03-30T19:36:43Z" name="loginPageURLTest" finished-at="2023-03-30T19:36:43Z" duration-ms="154" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- userRegTest -->
-        <test-method signature="userRegTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.test.RegistrationPageTest@62d1dc3c]" started-at="2023-03-28T14:53:58Z" name="userRegTest" data-provider="getRegTestData" finished-at="2023-03-28T14:54:07Z" duration-ms="9169" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sarang]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[anand]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[2345678986]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Test@123]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[yes]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">
-            <message>
-              <![CDATA[(816, 613) is out of bounds of viewport width (1280) and height (595)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [fb434ab7-f260-4698-b3dc-678d2031a7a6, actions {actions=[org.openqa.selenium.interactions.Sequence@27ec1f30]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0, moz:accessibilityChecks: false, moz:buildID: 20230309232128, moz:debuggerAddress: 127.0.0.1:11187, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18520, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:11187/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fb434ab7-f260-4698-b3dc-678d2031a7a6]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (816, 613) is out of bounds of viewport width (1280) and height (595)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [fb434ab7-f260-4698-b3dc-678d2031a7a6, actions {actions=[org.openqa.selenium.interactions.Sequence@27ec1f30]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0, moz:accessibilityChecks: false, moz:buildID: 20230309232128, moz:debuggerAddress: 127.0.0.1:11187, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18520, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:11187/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fb434ab7-f260-4698-b3dc-678d2031a7a6
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:603)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:567)
-at com.qa.opencart.utils.ElementUtil.doActionsCick(ElementUtil.java:64)
-at com.qa.opencart.PageLayer.RegistrationPage.registerUser(RegistrationPage.java:60)
-at com.qa.opencart.test.RegistrationPageTest.userRegTest(RegistrationPageTest.java:43)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.interactions.MoveTargetOutOfBoundsException -->
+        </test-method> <!-- loginPageURLTest -->
+        <test-method signature="forgotPwdLinkExistTest()[pri:3, instance:com.qa.opencart.test.LoginPageTest@22d9bc14]" started-at="2023-03-30T19:36:43Z" name="forgotPwdLinkExistTest" finished-at="2023-03-30T19:36:44Z" duration-ms="247" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- userRegTest -->
-        <test-method signature="userRegTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.test.RegistrationPageTest@62d1dc3c]" started-at="2023-03-28T14:54:07Z" name="userRegTest" data-provider="getRegTestData" finished-at="2023-03-28T14:54:17Z" duration-ms="9191" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sarang]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[anand]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[2345678986]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Test@123]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[yes]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">
-            <message>
-              <![CDATA[(816, 613) is out of bounds of viewport width (1280) and height (595)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [fb434ab7-f260-4698-b3dc-678d2031a7a6, actions {actions=[org.openqa.selenium.interactions.Sequence@48a75d19]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0, moz:accessibilityChecks: false, moz:buildID: 20230309232128, moz:debuggerAddress: 127.0.0.1:11187, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18520, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:11187/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fb434ab7-f260-4698-b3dc-678d2031a7a6]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (816, 613) is out of bounds of viewport width (1280) and height (595)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [fb434ab7-f260-4698-b3dc-678d2031a7a6, actions {actions=[org.openqa.selenium.interactions.Sequence@48a75d19]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0, moz:accessibilityChecks: false, moz:buildID: 20230309232128, moz:debuggerAddress: 127.0.0.1:11187, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18520, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:11187/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fb434ab7-f260-4698-b3dc-678d2031a7a6
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:603)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:567)
-at com.qa.opencart.utils.ElementUtil.doActionsCick(ElementUtil.java:64)
-at com.qa.opencart.PageLayer.RegistrationPage.registerUser(RegistrationPage.java:60)
-at com.qa.opencart.test.RegistrationPageTest.userRegTest(RegistrationPageTest.java:43)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.interactions.MoveTargetOutOfBoundsException -->
+        </test-method> <!-- forgotPwdLinkExistTest -->
+        <test-method signature="loginTest()[pri:4, instance:com.qa.opencart.test.LoginPageTest@22d9bc14]" started-at="2023-03-30T19:36:44Z" name="loginTest" finished-at="2023-03-30T19:36:49Z" duration-ms="5562" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- userRegTest -->
-        <test-method signature="userRegTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.test.RegistrationPageTest@62d1dc3c]" started-at="2023-03-28T14:54:17Z" name="userRegTest" data-provider="getRegTestData" finished-at="2023-03-28T14:54:26Z" duration-ms="9183" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sarang]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[anand]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[2345678986]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Test@123]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[yes]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">
-            <message>
-              <![CDATA[(816, 613) is out of bounds of viewport width (1280) and height (595)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [fb434ab7-f260-4698-b3dc-678d2031a7a6, actions {actions=[org.openqa.selenium.interactions.Sequence@59ead5bc]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0, moz:accessibilityChecks: false, moz:buildID: 20230309232128, moz:debuggerAddress: 127.0.0.1:11187, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18520, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:11187/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fb434ab7-f260-4698-b3dc-678d2031a7a6]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (816, 613) is out of bounds of viewport width (1280) and height (595)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [fb434ab7-f260-4698-b3dc-678d2031a7a6, actions {actions=[org.openqa.selenium.interactions.Sequence@59ead5bc]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0, moz:accessibilityChecks: false, moz:buildID: 20230309232128, moz:debuggerAddress: 127.0.0.1:11187, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18520, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:11187/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fb434ab7-f260-4698-b3dc-678d2031a7a6
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:603)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:567)
-at com.qa.opencart.utils.ElementUtil.doActionsCick(ElementUtil.java:64)
-at com.qa.opencart.PageLayer.RegistrationPage.registerUser(RegistrationPage.java:60)
-at com.qa.opencart.test.RegistrationPageTest.userRegTest(RegistrationPageTest.java:43)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.interactions.MoveTargetOutOfBoundsException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userRegTest -->
-        <test-method signature="userRegTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.test.RegistrationPageTest@62d1dc3c]" started-at="2023-03-28T14:54:26Z" name="userRegTest" data-provider="getRegTestData" finished-at="2023-03-28T14:54:35Z" duration-ms="9235" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sajal ]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[anand]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1234567898]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[ads@123]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[no]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">
-            <message>
-              <![CDATA[(816, 613) is out of bounds of viewport width (1280) and height (595)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [fb434ab7-f260-4698-b3dc-678d2031a7a6, actions {actions=[org.openqa.selenium.interactions.Sequence@64113450]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0, moz:accessibilityChecks: false, moz:buildID: 20230309232128, moz:debuggerAddress: 127.0.0.1:11187, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18520, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:11187/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fb434ab7-f260-4698-b3dc-678d2031a7a6]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (816, 613) is out of bounds of viewport width (1280) and height (595)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [fb434ab7-f260-4698-b3dc-678d2031a7a6, actions {actions=[org.openqa.selenium.interactions.Sequence@64113450]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0, moz:accessibilityChecks: false, moz:buildID: 20230309232128, moz:debuggerAddress: 127.0.0.1:11187, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18520, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:11187/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fb434ab7-f260-4698-b3dc-678d2031a7a6
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:603)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:567)
-at com.qa.opencart.utils.ElementUtil.doActionsCick(ElementUtil.java:64)
-at com.qa.opencart.PageLayer.RegistrationPage.registerUser(RegistrationPage.java:60)
-at com.qa.opencart.test.RegistrationPageTest.userRegTest(RegistrationPageTest.java:43)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.interactions.MoveTargetOutOfBoundsException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userRegTest -->
-        <test-method signature="userRegTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.test.RegistrationPageTest@62d1dc3c]" started-at="2023-03-28T14:54:35Z" name="userRegTest" data-provider="getRegTestData" finished-at="2023-03-28T14:54:44Z" duration-ms="9123" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sajal ]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[anand]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1234567898]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[ads@123]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[no]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">
-            <message>
-              <![CDATA[(816, 613) is out of bounds of viewport width (1280) and height (595)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [fb434ab7-f260-4698-b3dc-678d2031a7a6, actions {actions=[org.openqa.selenium.interactions.Sequence@2ac272de]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0, moz:accessibilityChecks: false, moz:buildID: 20230309232128, moz:debuggerAddress: 127.0.0.1:11187, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18520, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:11187/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fb434ab7-f260-4698-b3dc-678d2031a7a6]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (816, 613) is out of bounds of viewport width (1280) and height (595)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [fb434ab7-f260-4698-b3dc-678d2031a7a6, actions {actions=[org.openqa.selenium.interactions.Sequence@2ac272de]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0, moz:accessibilityChecks: false, moz:buildID: 20230309232128, moz:debuggerAddress: 127.0.0.1:11187, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18520, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:11187/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fb434ab7-f260-4698-b3dc-678d2031a7a6
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:603)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:567)
-at com.qa.opencart.utils.ElementUtil.doActionsCick(ElementUtil.java:64)
-at com.qa.opencart.PageLayer.RegistrationPage.registerUser(RegistrationPage.java:60)
-at com.qa.opencart.test.RegistrationPageTest.userRegTest(RegistrationPageTest.java:43)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.interactions.MoveTargetOutOfBoundsException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userRegTest -->
-        <test-method signature="userRegTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.test.RegistrationPageTest@62d1dc3c]" started-at="2023-03-28T14:54:45Z" name="userRegTest" data-provider="getRegTestData" finished-at="2023-03-28T14:54:54Z" duration-ms="9075" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[xyz]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[abc]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[3454323456]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[tyu@345]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[yes]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">
-            <message>
-              <![CDATA[(816, 613) is out of bounds of viewport width (1280) and height (595)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [fb434ab7-f260-4698-b3dc-678d2031a7a6, actions {actions=[org.openqa.selenium.interactions.Sequence@7489389d]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0, moz:accessibilityChecks: false, moz:buildID: 20230309232128, moz:debuggerAddress: 127.0.0.1:11187, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18520, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:11187/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fb434ab7-f260-4698-b3dc-678d2031a7a6]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (816, 613) is out of bounds of viewport width (1280) and height (595)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [fb434ab7-f260-4698-b3dc-678d2031a7a6, actions {actions=[org.openqa.selenium.interactions.Sequence@7489389d]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0, moz:accessibilityChecks: false, moz:buildID: 20230309232128, moz:debuggerAddress: 127.0.0.1:11187, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18520, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:11187/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fb434ab7-f260-4698-b3dc-678d2031a7a6
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:603)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:567)
-at com.qa.opencart.utils.ElementUtil.doActionsCick(ElementUtil.java:64)
-at com.qa.opencart.PageLayer.RegistrationPage.registerUser(RegistrationPage.java:60)
-at com.qa.opencart.test.RegistrationPageTest.userRegTest(RegistrationPageTest.java:43)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.interactions.MoveTargetOutOfBoundsException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userRegTest -->
-        <test-method signature="userRegTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.test.RegistrationPageTest@62d1dc3c]" started-at="2023-03-28T14:54:54Z" name="userRegTest" data-provider="getRegTestData" finished-at="2023-03-28T14:55:03Z" duration-ms="9162" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[xyz]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[abc]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[3454323456]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[tyu@345]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[yes]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">
-            <message>
-              <![CDATA[(816, 613) is out of bounds of viewport width (1280) and height (595)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [fb434ab7-f260-4698-b3dc-678d2031a7a6, actions {actions=[org.openqa.selenium.interactions.Sequence@39ff4620]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0, moz:accessibilityChecks: false, moz:buildID: 20230309232128, moz:debuggerAddress: 127.0.0.1:11187, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18520, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:11187/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fb434ab7-f260-4698-b3dc-678d2031a7a6]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (816, 613) is out of bounds of viewport width (1280) and height (595)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [fb434ab7-f260-4698-b3dc-678d2031a7a6, actions {actions=[org.openqa.selenium.interactions.Sequence@39ff4620]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0, moz:accessibilityChecks: false, moz:buildID: 20230309232128, moz:debuggerAddress: 127.0.0.1:11187, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18520, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:11187/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fb434ab7-f260-4698-b3dc-678d2031a7a6
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:603)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:567)
-at com.qa.opencart.utils.ElementUtil.doActionsCick(ElementUtil.java:64)
-at com.qa.opencart.PageLayer.RegistrationPage.registerUser(RegistrationPage.java:60)
-at com.qa.opencart.test.RegistrationPageTest.userRegTest(RegistrationPageTest.java:43)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.interactions.MoveTargetOutOfBoundsException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userRegTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.test.RegistrationPageTest@62d1dc3c]" started-at="2023-03-28T14:55:03Z" name="tearDown" finished-at="2023-03-28T14:55:04Z" duration-ms="600" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.test.LoginPageTest@22d9bc14]" started-at="2023-03-30T19:36:49Z" name="tearDown" finished-at="2023-03-30T19:36:50Z" duration-ms="387" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.opencart.test.RegistrationPageTest -->
-    </test> <!-- Register Page Test -->
-    <test started-at="2023-03-28T14:53:22Z" name="Accounts Page Test" finished-at="2023-03-28T14:56:26Z" duration-ms="184272">
+      </class> <!-- com.qa.opencart.test.LoginPageTest -->
+    </test> <!-- Login Page Test_edge -->
+    <test started-at="2023-03-30T19:36:33Z" name="Accounts Page Test_firefox" finished-at="2023-03-30T19:37:40Z" duration-ms="67074">
       <class name="com.qa.opencart.test.AccountsPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.test.AccountsPageTest@7377781e]" started-at="2023-03-28T14:53:22Z" name="setup" finished-at="2023-03-28T14:53:39Z" duration-ms="17246" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.opencart.test.AccountsPageTest@3811510]" started-at="2023-03-30T19:36:33Z" name="setup" finished-at="2023-03-30T19:36:46Z" duration-ms="13457" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="accPageSetup()[pri:0, instance:com.qa.opencart.test.AccountsPageTest@7377781e]" started-at="2023-03-28T14:53:39Z" name="accPageSetup" finished-at="2023-03-28T14:53:43Z" duration-ms="3728" status="PASS">
+        <test-method is-config="true" signature="accPageSetup()[pri:0, instance:com.qa.opencart.test.AccountsPageTest@3811510]" started-at="2023-03-30T19:36:46Z" name="accPageSetup" finished-at="2023-03-30T19:36:50Z" duration-ms="4055" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accPageSetup -->
-        <test-method signature="accPageHeadersCountTest()[pri:0, instance:com.qa.opencart.test.AccountsPageTest@7377781e]" started-at="2023-03-28T14:53:43Z" name="accPageHeadersCountTest" finished-at="2023-03-28T14:53:43Z" duration-ms="101" status="PASS">
+        <test-method signature="accPageHeadersCountTest()[pri:0, instance:com.qa.opencart.test.AccountsPageTest@3811510]" started-at="2023-03-30T19:36:50Z" name="accPageHeadersCountTest" finished-at="2023-03-30T19:36:51Z" duration-ms="92" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accPageHeadersCountTest -->
-        <test-method signature="accPageHeadersValueTest()[pri:0, instance:com.qa.opencart.test.AccountsPageTest@7377781e]" started-at="2023-03-28T14:53:43Z" name="accPageHeadersValueTest" finished-at="2023-03-28T14:53:43Z" duration-ms="82" status="PASS">
+        <test-method signature="accPageHeadersValueTest()[pri:0, instance:com.qa.opencart.test.AccountsPageTest@3811510]" started-at="2023-03-30T19:36:51Z" name="accPageHeadersValueTest" finished-at="2023-03-30T19:36:51Z" duration-ms="71" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accPageHeadersValueTest -->
-        <test-method signature="accPageTitleTest()[pri:0, instance:com.qa.opencart.test.AccountsPageTest@7377781e]" started-at="2023-03-28T14:53:43Z" name="accPageTitleTest" finished-at="2023-03-28T14:53:43Z" duration-ms="10" status="PASS">
+        <test-method signature="accPageTitleTest()[pri:0, instance:com.qa.opencart.test.AccountsPageTest@3811510]" started-at="2023-03-30T19:36:51Z" name="accPageTitleTest" finished-at="2023-03-30T19:36:51Z" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accPageTitleTest -->
-        <test-method signature="accPageURLTest()[pri:0, instance:com.qa.opencart.test.AccountsPageTest@7377781e]" started-at="2023-03-28T14:53:43Z" name="accPageURLTest" finished-at="2023-03-28T14:53:43Z" duration-ms="9" status="PASS">
+        <test-method signature="accPageURLTest()[pri:0, instance:com.qa.opencart.test.AccountsPageTest@3811510]" started-at="2023-03-30T19:36:51Z" name="accPageURLTest" finished-at="2023-03-30T19:36:51Z" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accPageURLTest -->
-        <test-method signature="isLogoutLinkExistTest()[pri:0, instance:com.qa.opencart.test.AccountsPageTest@7377781e]" started-at="2023-03-28T14:53:43Z" name="isLogoutLinkExistTest" finished-at="2023-03-28T14:53:43Z" duration-ms="221" status="PASS">
+        <test-method signature="isLogoutLinkExistTest()[pri:0, instance:com.qa.opencart.test.AccountsPageTest@3811510]" started-at="2023-03-30T19:36:51Z" name="isLogoutLinkExistTest" finished-at="2023-03-30T19:36:51Z" duration-ms="96" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isLogoutLinkExistTest -->
-        <test-method signature="searchProductCountTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.AccountsPageTest@7377781e]" started-at="2023-03-28T14:53:43Z" name="searchProductCountTest" data-provider="getProductData" finished-at="2023-03-28T14:53:54Z" duration-ms="10833" status="PASS">
+        <test-method signature="searchProductCountTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.AccountsPageTest@3811510]" started-at="2023-03-30T19:36:51Z" name="searchProductCountTest" data-provider="getProductData" finished-at="2023-03-30T19:36:54Z" duration-ms="3367" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -802,7 +123,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProductCountTest -->
-        <test-method signature="searchProductCountTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.AccountsPageTest@7377781e]" started-at="2023-03-28T14:53:54Z" name="searchProductCountTest" data-provider="getProductData" finished-at="2023-03-28T14:54:11Z" duration-ms="16385" status="PASS">
+        <test-method signature="searchProductCountTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.AccountsPageTest@3811510]" started-at="2023-03-30T19:36:54Z" name="searchProductCountTest" data-provider="getProductData" finished-at="2023-03-30T19:36:57Z" duration-ms="3297" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -813,7 +134,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProductCountTest -->
-        <test-method signature="searchProductCountTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.AccountsPageTest@7377781e]" started-at="2023-03-28T14:54:11Z" name="searchProductCountTest" data-provider="getProductData" finished-at="2023-03-28T14:54:16Z" duration-ms="4975" status="PASS">
+        <test-method signature="searchProductCountTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.AccountsPageTest@3811510]" started-at="2023-03-30T19:36:57Z" name="searchProductCountTest" data-provider="getProductData" finished-at="2023-03-30T19:37:01Z" duration-ms="3238" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -824,7 +145,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProductCountTest -->
-        <test-method signature="searchProductCountTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.AccountsPageTest@7377781e]" started-at="2023-03-28T14:54:16Z" name="searchProductCountTest" data-provider="getProductData" finished-at="2023-03-28T14:54:20Z" duration-ms="4561" status="PASS">
+        <test-method signature="searchProductCountTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.AccountsPageTest@3811510]" started-at="2023-03-30T19:37:01Z" name="searchProductCountTest" data-provider="getProductData" finished-at="2023-03-30T19:37:04Z" duration-ms="3285" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -835,227 +156,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProductCountTest -->
-        <test-method signature="searchProductCountTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.AccountsPageTest@7377781e]" started-at="2023-03-28T14:54:20Z" name="searchProductCountTest" data-provider="getProductData" finished-at="2023-03-28T14:54:35Z" duration-ms="14375" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Naveen]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of all elements located by By.cssSelector: div#content div.product-layout (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0, moz:accessibilityChecks: false, moz:buildID: 20230309232128, moz:debuggerAddress: 127.0.0.1:44505, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19232, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:44505/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e7973804-695b-4290-bcf3-24f982790c5c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.cssSelector: div#content div.product-layout (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0, moz:accessibilityChecks: false, moz:buildID: 20230309232128, moz:debuggerAddress: 127.0.0.1:44505, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19232, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:44505/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e7973804-695b-4290-bcf3-24f982790c5c
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-at com.qa.opencart.utils.ElementUtil.waitForElementsVisible(ElementUtil.java:212)
-at com.qa.opencart.PageLayer.SearchPage.getSearchProductsCount(SearchPage.java:23)
-at com.qa.opencart.test.AccountsPageTest.searchProductCountTest(AccountsPageTest.java:67)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchProductCountTest -->
-        <test-method signature="searchProductCountTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.AccountsPageTest@7377781e]" started-at="2023-03-28T14:54:35Z" name="searchProductCountTest" data-provider="getProductData" finished-at="2023-03-28T14:54:48Z" duration-ms="13339" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Naveen]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of all elements located by By.cssSelector: div#content div.product-layout (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0, moz:accessibilityChecks: false, moz:buildID: 20230309232128, moz:debuggerAddress: 127.0.0.1:44505, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19232, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:44505/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e7973804-695b-4290-bcf3-24f982790c5c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.cssSelector: div#content div.product-layout (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0, moz:accessibilityChecks: false, moz:buildID: 20230309232128, moz:debuggerAddress: 127.0.0.1:44505, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19232, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:44505/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e7973804-695b-4290-bcf3-24f982790c5c
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-at com.qa.opencart.utils.ElementUtil.waitForElementsVisible(ElementUtil.java:212)
-at com.qa.opencart.PageLayer.SearchPage.getSearchProductsCount(SearchPage.java:23)
-at com.qa.opencart.test.AccountsPageTest.searchProductCountTest(AccountsPageTest.java:67)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchProductCountTest -->
-        <test-method signature="searchProductCountTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.AccountsPageTest@7377781e]" started-at="2023-03-28T14:54:48Z" name="searchProductCountTest" data-provider="getProductData" finished-at="2023-03-28T14:55:04Z" duration-ms="15711" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Naveen]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of all elements located by By.cssSelector: div#content div.product-layout (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0, moz:accessibilityChecks: false, moz:buildID: 20230309232128, moz:debuggerAddress: 127.0.0.1:44505, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19232, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:44505/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e7973804-695b-4290-bcf3-24f982790c5c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.cssSelector: div#content div.product-layout (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0, moz:accessibilityChecks: false, moz:buildID: 20230309232128, moz:debuggerAddress: 127.0.0.1:44505, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19232, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:44505/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e7973804-695b-4290-bcf3-24f982790c5c
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-at com.qa.opencart.utils.ElementUtil.waitForElementsVisible(ElementUtil.java:212)
-at com.qa.opencart.PageLayer.SearchPage.getSearchProductsCount(SearchPage.java:23)
-at com.qa.opencart.test.AccountsPageTest.searchProductCountTest(AccountsPageTest.java:67)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchProductCountTest -->
-        <test-method signature="searchProductCountTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.AccountsPageTest@7377781e]" started-at="2023-03-28T14:55:04Z" name="searchProductCountTest" data-provider="getProductData" finished-at="2023-03-28T14:55:17Z" duration-ms="13563" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Naveen]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of all elements located by By.cssSelector: div#content div.product-layout (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0, moz:accessibilityChecks: false, moz:buildID: 20230309232128, moz:debuggerAddress: 127.0.0.1:44505, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19232, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:44505/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e7973804-695b-4290-bcf3-24f982790c5c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.cssSelector: div#content div.product-layout (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0, moz:accessibilityChecks: false, moz:buildID: 20230309232128, moz:debuggerAddress: 127.0.0.1:44505, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19232, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:44505/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e7973804-695b-4290-bcf3-24f982790c5c
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-at com.qa.opencart.utils.ElementUtil.waitForElementsVisible(ElementUtil.java:212)
-at com.qa.opencart.PageLayer.SearchPage.getSearchProductsCount(SearchPage.java:23)
-at com.qa.opencart.test.AccountsPageTest.searchProductCountTest(AccountsPageTest.java:67)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchProductCountTest -->
-        <test-method signature="searchProductTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.test.AccountsPageTest@7377781e]" started-at="2023-03-28T14:55:18Z" name="searchProductTest" data-provider="getProductTestData" finished-at="2023-03-28T14:55:30Z" duration-ms="12118" status="PASS">
+        <test-method signature="searchProductTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.test.AccountsPageTest@3811510]" started-at="2023-03-30T19:37:04Z" name="searchProductTest" data-provider="getProductTestData" finished-at="2023-03-30T19:37:10Z" duration-ms="6024" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1071,7 +172,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProductTest -->
-        <test-method signature="searchProductTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.test.AccountsPageTest@7377781e]" started-at="2023-03-28T14:55:30Z" name="searchProductTest" data-provider="getProductTestData" finished-at="2023-03-28T14:55:38Z" duration-ms="8433" status="PASS">
+        <test-method signature="searchProductTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.test.AccountsPageTest@3811510]" started-at="2023-03-30T19:37:10Z" name="searchProductTest" data-provider="getProductTestData" finished-at="2023-03-30T19:37:16Z" duration-ms="5828" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1087,7 +188,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProductTest -->
-        <test-method signature="searchProductTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.test.AccountsPageTest@7377781e]" started-at="2023-03-28T14:55:38Z" name="searchProductTest" data-provider="getProductTestData" finished-at="2023-03-28T14:55:46Z" duration-ms="8087" status="PASS">
+        <test-method signature="searchProductTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.test.AccountsPageTest@3811510]" started-at="2023-03-30T19:37:16Z" name="searchProductTest" data-provider="getProductTestData" finished-at="2023-03-30T19:37:22Z" duration-ms="5770" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1103,7 +204,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProductTest -->
-        <test-method signature="searchProductTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.test.AccountsPageTest@7377781e]" started-at="2023-03-28T14:55:46Z" name="searchProductTest" data-provider="getProductTestData" finished-at="2023-03-28T14:56:11Z" duration-ms="25153" status="PASS">
+        <test-method signature="searchProductTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.test.AccountsPageTest@3811510]" started-at="2023-03-30T19:37:22Z" name="searchProductTest" data-provider="getProductTestData" finished-at="2023-03-30T19:37:27Z" duration-ms="5895" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1119,7 +220,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProductTest -->
-        <test-method signature="searchProductTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.test.AccountsPageTest@7377781e]" started-at="2023-03-28T14:56:11Z" name="searchProductTest" data-provider="getProductTestData" finished-at="2023-03-28T14:56:17Z" duration-ms="5745" status="PASS">
+        <test-method signature="searchProductTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.test.AccountsPageTest@3811510]" started-at="2023-03-30T19:37:27Z" name="searchProductTest" data-provider="getProductTestData" finished-at="2023-03-30T19:37:33Z" duration-ms="5881" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1135,7 +236,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProductTest -->
-        <test-method signature="searchProductTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.test.AccountsPageTest@7377781e]" started-at="2023-03-28T14:56:17Z" name="searchProductTest" data-provider="getProductTestData" finished-at="2023-03-28T14:56:25Z" duration-ms="8119" status="PASS">
+        <test-method signature="searchProductTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.test.AccountsPageTest@3811510]" started-at="2023-03-30T19:37:33Z" name="searchProductTest" data-provider="getProductTestData" finished-at="2023-03-30T19:37:39Z" duration-ms="5937" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1151,726 +252,11 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProductTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.test.AccountsPageTest@7377781e]" started-at="2023-03-28T14:56:25Z" name="tearDown" finished-at="2023-03-28T14:56:26Z" duration-ms="1079" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.test.AccountsPageTest@3811510]" started-at="2023-03-30T19:37:39Z" name="tearDown" finished-at="2023-03-30T19:37:40Z" duration-ms="700" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.opencart.test.AccountsPageTest -->
-    </test> <!-- Accounts Page Test -->
-    <test started-at="2023-03-28T14:53:22Z" name="Product Info Page Test" finished-at="2023-03-28T14:56:59Z" duration-ms="217373">
-      <class name="com.qa.opencart.test.ProductPageInfoTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.test.ProductPageInfoTest@21eee94f]" started-at="2023-03-28T14:53:22Z" name="setup" finished-at="2023-03-28T14:53:43Z" duration-ms="21173" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="productInfoPageSetup()[pri:0, instance:com.qa.opencart.test.ProductPageInfoTest@21eee94f]" started-at="2023-03-28T14:53:43Z" name="productInfoPageSetup" finished-at="2023-03-28T14:53:47Z" duration-ms="3604" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productInfoPageSetup -->
-        <test-method signature="addtToCartTest(java.lang.String, java.lang.String, int)[pri:0, instance:com.qa.opencart.test.ProductPageInfoTest@21eee94f]" started-at="2023-03-28T14:53:47Z" name="addtToCartTest" data-provider="getCartTestData" finished-at="2023-03-28T14:55:09Z" duration-ms="82676" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Macbook]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[MacBook Pro]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-at com.qa.opencart.test.ProductPageInfoTest.addtToCartTest(ProductPageInfoTest.java:102)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addtToCartTest -->
-        <test-method signature="addtToCartTest(java.lang.String, java.lang.String, int)[pri:0, instance:com.qa.opencart.test.ProductPageInfoTest@21eee94f]" started-at="2023-03-28T14:55:10Z" name="addtToCartTest" data-provider="getCartTestData" finished-at="2023-03-28T14:55:21Z" duration-ms="11564" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Macbook]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[MacBook Pro]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-at com.qa.opencart.test.ProductPageInfoTest.addtToCartTest(ProductPageInfoTest.java:102)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addtToCartTest -->
-        <test-method signature="addtToCartTest(java.lang.String, java.lang.String, int)[pri:0, instance:com.qa.opencart.test.ProductPageInfoTest@21eee94f]" started-at="2023-03-28T14:55:21Z" name="addtToCartTest" data-provider="getCartTestData" finished-at="2023-03-28T14:55:30Z" duration-ms="8906" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Macbook]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[MacBook Pro]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-at com.qa.opencart.test.ProductPageInfoTest.addtToCartTest(ProductPageInfoTest.java:102)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addtToCartTest -->
-        <test-method signature="addtToCartTest(java.lang.String, java.lang.String, int)[pri:0, instance:com.qa.opencart.test.ProductPageInfoTest@21eee94f]" started-at="2023-03-28T14:55:30Z" name="addtToCartTest" data-provider="getCartTestData" finished-at="2023-03-28T14:55:40Z" duration-ms="10022" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Macbook]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[MacBook Pro]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-at com.qa.opencart.test.ProductPageInfoTest.addtToCartTest(ProductPageInfoTest.java:102)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addtToCartTest -->
-        <test-method signature="addtToCartTest(java.lang.String, java.lang.String, int)[pri:0, instance:com.qa.opencart.test.ProductPageInfoTest@21eee94f]" started-at="2023-03-28T14:55:41Z" name="addtToCartTest" data-provider="getCartTestData" finished-at="2023-03-28T14:56:06Z" duration-ms="25460" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[iMac]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[iMac]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of all elements located by By.cssSelector: .table.table-striped td.text-left a (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0, moz:accessibilityChecks: false, moz:buildID: 20230309232128, moz:debuggerAddress: 127.0.0.1:16017, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12500, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:16017/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 5528e2cd-679e-465f-ba7a-c5dd624a99e7]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.cssSelector: .table.table-striped td.text-left a (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0, moz:accessibilityChecks: false, moz:buildID: 20230309232128, moz:debuggerAddress: 127.0.0.1:16017, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12500, moz:profile: C:\Users\sanand\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:16017/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 5528e2cd-679e-465f-ba7a-c5dd624a99e7
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-at com.qa.opencart.utils.ElementUtil.waitForElementsVisible(ElementUtil.java:212)
-at com.qa.opencart.PageLayer.ViewCartPopUpPage.getProductsValueListInCart(ViewCartPopUpPage.java:26)
-at com.qa.opencart.test.ProductPageInfoTest.addtToCartTest(ProductPageInfoTest.java:90)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addtToCartTest -->
-        <test-method signature="addtToCartTest(java.lang.String, java.lang.String, int)[pri:0, instance:com.qa.opencart.test.ProductPageInfoTest@21eee94f]" started-at="2023-03-28T14:56:06Z" name="addtToCartTest" data-provider="getCartTestData" finished-at="2023-03-28T14:56:16Z" duration-ms="9472" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[iMac]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[iMac]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],
-expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],
-expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],
-expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],
-expected [true] but found [false]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-at com.qa.opencart.test.ProductPageInfoTest.addtToCartTest(ProductPageInfoTest.java:102)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addtToCartTest -->
-        <test-method signature="productImagesCountTest(java.lang.String, java.lang.String, int)[pri:0, instance:com.qa.opencart.test.ProductPageInfoTest@21eee94f]" started-at="2023-03-28T14:56:16Z" name="productImagesCountTest" data-provider="getProductImagesTestData" finished-at="2023-03-28T14:56:20Z" duration-ms="4513" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Macbook]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[MacBook Pro]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productImagesCountTest -->
-        <test-method signature="productImagesCountTest(java.lang.String, java.lang.String, int)[pri:0, instance:com.qa.opencart.test.ProductPageInfoTest@21eee94f]" started-at="2023-03-28T14:56:20Z" name="productImagesCountTest" data-provider="getProductImagesTestData" finished-at="2023-03-28T14:56:25Z" duration-ms="4857" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[iMac]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[iMac]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productImagesCountTest -->
-        <test-method signature="productImagesCountTest(java.lang.String, java.lang.String, int)[pri:0, instance:com.qa.opencart.test.ProductPageInfoTest@21eee94f]" started-at="2023-03-28T14:56:25Z" name="productImagesCountTest" data-provider="getProductImagesTestData" finished-at="2023-03-28T14:56:30Z" duration-ms="4776" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Apple]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Apple Cinema 30"]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[6]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productImagesCountTest -->
-        <test-method signature="productImagesCountTest(java.lang.String, java.lang.String, int)[pri:0, instance:com.qa.opencart.test.ProductPageInfoTest@21eee94f]" started-at="2023-03-28T14:56:30Z" name="productImagesCountTest" data-provider="getProductImagesTestData" finished-at="2023-03-28T14:56:35Z" duration-ms="4446" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Samsung SyncMaster 941BW]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productImagesCountTest -->
-        <test-method signature="productInfoTest()[pri:0, instance:com.qa.opencart.test.ProductPageInfoTest@21eee94f]" started-at="2023-03-28T14:56:35Z" name="productInfoTest" finished-at="2023-03-28T14:56:41Z" duration-ms="6418" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],
-expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],
-expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],
-expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],
-expected [true] but found [false]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-at com.qa.opencart.test.ProductPageInfoTest.productInfoTest(ProductPageInfoTest.java:60)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productInfoTest -->
-        <test-method signature="productInfoTest()[pri:0, instance:com.qa.opencart.test.ProductPageInfoTest@21eee94f]" started-at="2023-03-28T14:56:41Z" name="productInfoTest" finished-at="2023-03-28T14:56:46Z" duration-ms="5255" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],
-expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],
-expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],
-expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],
-expected [true] but found [false]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-at com.qa.opencart.test.ProductPageInfoTest.productInfoTest(ProductPageInfoTest.java:60)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productInfoTest -->
-        <test-method signature="productInfoTest()[pri:0, instance:com.qa.opencart.test.ProductPageInfoTest@21eee94f]" started-at="2023-03-28T14:56:46Z" name="productInfoTest" finished-at="2023-03-28T14:56:53Z" duration-ms="6670" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],
-expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],
-expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],
-expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],
-expected [true] but found [false]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-at com.qa.opencart.test.ProductPageInfoTest.productInfoTest(ProductPageInfoTest.java:60)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productInfoTest -->
-        <test-method signature="productInfoTest()[pri:0, instance:com.qa.opencart.test.ProductPageInfoTest@21eee94f]" started-at="2023-03-28T14:56:53Z" name="productInfoTest" finished-at="2023-03-28T14:56:58Z" duration-ms="5297" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],
-expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],
-expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added MacBook Pro to your shopping cart!] but found [Success: You have added MacBook Pro to your shopping cart!],
-expected [true] but found [false],
-expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],
-expected [Success :  You have added iMac to your shopping cart!] but found [Success: You have added iMac to your shopping cart!],
-expected [true] but found [false]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-at com.qa.opencart.test.ProductPageInfoTest.productInfoTest(ProductPageInfoTest.java:60)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productInfoTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.test.ProductPageInfoTest@21eee94f]" started-at="2023-03-28T14:56:59Z" name="tearDown" finished-at="2023-03-28T14:56:59Z" duration-ms="823" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.opencart.test.ProductPageInfoTest -->
-    </test> <!-- Product Info Page Test -->
+    </test> <!-- Accounts Page Test_firefox -->
   </suite> <!-- Opencart App Test Regression Suite -->
 </testng-results>

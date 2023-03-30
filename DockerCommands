@@ -52,3 +52,14 @@ WARNING! This will remove:
   - all networks not used by at least one container
   - all images without at least one container associated to them
   - all build cache
+  
+  
+  
+  docker-compose up -d --scale chrome=4   ----   use this to add new containers immediately
+  
+  
+  docker-compose up -d --scale chrome=1  ----   this will make it back to 1 chrome container
+  
+  
+  
+  docker-compose up  -d --scale firefox=3 --scale chrome=4  ----   can scale to as many browsers specifically 
