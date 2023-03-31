@@ -19,28 +19,36 @@
 	</listeners>
 
 
-	<test name="Login Page Test_chrome">
+	<test name="Login Page Test_chrome_90">
 	
 	<parameter name="browser" value="chrome"></parameter>
+	<parameter name="browserversion" value="90.0"></parameter>
+	<parameter name="TestCaseName" value="Login Page Test"></parameter>
 		<classes>
 			<class name="com.qa.opencart.test.LoginPageTest" />
 		</classes>
 	</test>
 
 
-	<test name="Accounts Page Test_firefox">
-	<parameter name="browser" value="firefox"></parameter>
+	<test name="Accounts Page Test_chrome_109">
+	<parameter name="browser" value="chrome"></parameter>
+	<parameter name="browserversion" value="109.0"></parameter>
+	<parameter name="TestCaseName" value="Accounts Page Test"></parameter>
 		<classes>
 			<class name="com.qa.opencart.test.AccountsPageTest" />
 		</classes>
 	</test>
 	
-	<test name="Login Page Test_edge">
-	<parameter name="browser" value="edge"></parameter>
+	
+	<test name="Accounts Page Test_chrome_79">
+	<parameter name="browser" value="chrome"></parameter>
+	<parameter name="browserversion" value="79.0"></parameter>
+	<parameter name="TestCaseName" value="Account Page Test"></parameter>
 		<classes>
-			<class name="com.qa.opencart.test.LoginPageTest" />
+			<class name="com.qa.opencart.test.AccountsPageTest" />
 		</classes>
 	</test>
+
 
 	
 	
